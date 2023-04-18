@@ -16,12 +16,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(253, 255, 237);
+    background-color: rgb(18, 18, 18);
+}
+
+body{
+    color:rgb(237, 237, 237)
 }
 
 header{
     display: flex;
     justify-content: center;
+    background-color: rgb(36, 36, 36);
+    padding-top: .5em;
+    padding-bottom: 1em;
 }
 
 img{
@@ -62,11 +69,30 @@ audio{
     justify-content: center;
 }
 
+
 .topLinks{
-    padding: 10px;
+    background-color: grey;
+    color: blue;
+    border: 5px solid black; /* Green */
+    border-radius: 10%;
+    padding: 10px 12px;
+    text-align: center;
+    display:block;
     font-size: 20px;
-    border: 1px;
-    display: flex;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-decoration: none;
+}
+
+.notCurrent:hover{
+    background-color: rgb(61, 61, 61);
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.currentPage{
+    color:black;
+    font-weight: bold;
 }
 
 .forgot{
@@ -75,11 +101,11 @@ audio{
 }
 
 .textBlocks{
-    display: flex;
     margin: auto;
     font-family: "Poppins", "Arial", sans-serif;
     font-size: 25px;
     padding: 15px;
+    flex-wrap: wrap;
 }
 
 .gallery{
@@ -92,6 +118,10 @@ audio{
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+
+.colored{
+    background-color:rgb(196, 255, 255);
 }
 
 .right{
@@ -115,9 +145,22 @@ audio{
 }
 
 .sources{
-    margin: auto;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
+    display: inline;
     font-family: "Poppins", "Arial", sans-serif;
+}
+
+.indexText{
+    margin: auto;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+.sixhund{
+    max-width: 50%;
+}
+.fourhund{
+    max-width: 30%;
 }
