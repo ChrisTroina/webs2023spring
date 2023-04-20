@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(90, 0, 90);
 }
 
 body{
@@ -26,7 +26,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(56, 0, 58);
     padding-top: .5em;
     padding-bottom: 1em;
 }
@@ -73,7 +73,7 @@ audio{
 .topLinks{
     background-color: grey;
     color: blue;
-    border: 5px solid black; /* Green */
+    border: 5px solid black; 
     border-radius: 10%;
     padding: 10px 12px;
     text-align: center;
@@ -121,7 +121,7 @@ audio{
 }
 
 .colored{
-    background-color:rgb(196, 255, 255);
+    background-color:rgb(242, 224, 255);
 }
 
 .right{
@@ -131,6 +131,14 @@ audio{
 .forgot{
     min-width: 30%;
     text-align: center;
+}
+
+.forgot, .sources{
+    color: rgb(0, 0, 255);
+}
+
+.forgot:hover, .sources:hover{
+    color: rgb(0, 251, 255);
 }
 
 .around{
@@ -163,4 +171,24 @@ audio{
 }
 .fourhund{
     max-width: 30%;
+}
+
+.boarder{
+    border-bottom: .5em solid black;
+}
+
+.section{
+    border-bottom: 1em solid black;
+}
+
+
+
+@media (max-width: 40em) {
+    .gallery, .nist {
+        flex-direction:column;
+    }
+
+    .fourhund, .sixhund {
+        max-width:100%;
+    }    
 }
