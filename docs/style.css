@@ -45,6 +45,9 @@ header{
     background-color: rgb(56, 0, 58);
     padding-top: .5em;
     padding-bottom: 1em;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
 }
 
 img{
@@ -85,6 +88,9 @@ audio{
     justify-content: center;
 }
 
+.main{
+    margin-top: 8em;
+}
 
 .topLinks{
     background-color: grey;
@@ -94,7 +100,7 @@ audio{
     padding: 10px 12px;
     text-align: center;
     display:block;
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 1px;
     margin-right: 1px;
     text-decoration: none;
@@ -103,6 +109,12 @@ audio{
 .notCurrent:hover{
     background-color: rgb(61, 61, 61);
     color:blueviolet;
+    text-decoration: underline;
+}
+
+.notCurrent:active{
+    background-color: rgb(177, 177, 177);
+    color:black;
     text-decoration: underline;
 }
 
@@ -148,6 +160,26 @@ audio{
 .forgot{
     min-width: 30%;
     text-align: center;
+    background-color: rgb(47, 0, 54);
+    border: 10px solid black; 
+    border-radius: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+}
+
+.forgot:hover{
+    background-color: rgb(78, 2, 150);
+    font-weight: bold;
+}
+
+.forgot:active{
+    background-color: rgb(26, 0, 52);
+    font-weight: bold;
 }
 
 .forgot, .sources{
@@ -173,6 +205,11 @@ audio{
     font-size: 25px;
     display: inline;
     font-family: "Poppins", "Arial", sans-serif;
+    text-decoration: none;
+}
+
+.sources:hover{
+    text-decoration: underline;
 }
 
 .indexText{
@@ -200,7 +237,7 @@ audio{
 
 
 
-@media (max-width: 40em) {
+@media (max-width: 50em) {
     .gallery, .nist {
         flex-direction:column;
     }
@@ -208,4 +245,8 @@ audio{
     .fourhund, .sixhund {
         max-width:100%;
     }    
+
+    .textBlocks, .sources, .toplinks{
+        font-size: 20px;
+    }
 }
