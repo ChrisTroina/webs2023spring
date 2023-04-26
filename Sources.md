@@ -2,5 +2,5 @@
 [Poppins](https://fonts.google.com/specimen/Poppins) by Indian Type Foundry and Jonny Pinhorn from Google Fonts through Open Font License <br>
 [Open Sans](https://fonts.google.com/specimen/Open+Sans) by Steve Matteson from Google Fonts through Open Font License<br>
 <br><br>
-Source attribution for audio narrative: https://github.com/ChrisTroina/audio-narrative-2023spring<br>
-Source attribution for visual argument: https://github.com/ChrisTroina/visual-argument-2023spring/edit/main/Sources.md
+Source attribution for audio narrative: https://github.com/ChrisTroina/audio-narrative-2023spring/blob/main/Sources.md<br>
+Source attribution for visual argument: https://github.com/ChrisTroina/visual-argument-2023spring/blob/main/Sources.md
