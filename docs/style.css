@@ -227,6 +227,18 @@ audio{
     max-width: 30%;
 }
 
+.ok{
+    max-width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.okay{
+    display: flex;
+    justify-content: center;
+}
+
 .boarder{
     border-bottom: .5em solid black;
 }
